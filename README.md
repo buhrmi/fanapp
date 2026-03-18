@@ -1,24 +1,3 @@
-# README
+# FanApp
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+FanApp is an open-source multi-lingual content monetization platform. It allows content creators to monetize their work through subscriptions, pay-per-view, and other revenue streams. The platform supports multiple languages, making it accessible to a global audience.

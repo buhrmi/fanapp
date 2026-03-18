@@ -1,1 +1,2 @@
-In a world where we're all looking for ways to make money, why not monetize your secrets?
+The easiest way to monetize your personal brand.
+Cách dễ nhất để kiếm tiền từ thương hiệu cá nhân.
