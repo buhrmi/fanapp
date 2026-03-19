@@ -59,4 +59,4 @@ end
 
 gem "inertia_rails", git: "https://github.com/inertiajs/inertia-rails.git", branch: "v3/ssr-in-development" # "~> 3.18"
 
-gem "vite_rails", "~> 3.0"
+gem "vite_rails", "~> 3.10"
