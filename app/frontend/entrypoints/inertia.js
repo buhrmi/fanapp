@@ -1,6 +1,5 @@
 import { createInertiaApp } from '@inertiajs/svelte'
-
-import Layout from "~/layouts/default.svelte"
+import Layout from "../layouts/default.svelte"
 
 createInertiaApp({
   // Disable progress bar

@@ -13,7 +13,7 @@ KeoFan is an open-source multi-lingual platform for streamer recruitment and con
 After editing any Rails locale file, recompile the frontend messages:
 
 ```bash
-npx paraglide-js compile --project ./project.inlang --outdir ./app/frontend/i18n
+npm run i18n:compile
 ```
 
 Generated files are written to `app/frontend/i18n/messages/` using the locale module structure:

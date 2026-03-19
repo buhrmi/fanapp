@@ -3,4 +3,7 @@
 class PostsController < InertiaController
   def index
   end
+
+  def new
+  end
 end

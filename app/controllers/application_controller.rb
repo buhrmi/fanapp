@@ -6,17 +6,16 @@ class ApplicationController < ActionController::Base
 
   before_action :set_locale
 
+  inertia_share do
+    {
+      locale: I18n.locale
+    }
+  end
+
   private
-  PARAGLIDE_COOKIE = "PARAGLIDE_LOCALE"
 
   def set_locale
-    cookie_val = cookies[PARAGLIDE_COOKIE]
-    if cookie_val.present? && I18n.available_locales.map(&:to_s).include?(cookie_val)
-      I18n.locale = cookie_val
-    else
-      I18n.locale = extract_locale || I18n.default_locale
-      cookies[PARAGLIDE_COOKIE] = I18n.locale
-    end
+    I18n.locale = extract_locale || I18n.default_locale
   end
 
   def extract_locale
