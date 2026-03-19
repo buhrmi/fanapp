@@ -25,3 +25,7 @@ Generated files are written to `app/frontend/i18n/messages/` using the locale mo
 The frontend imports messages from `app/frontend/i18n/messages.js`.
 
 If you are running the Vite dev server, the Paraglide Vite plugin will also generate the message files during frontend builds.
+
+## Copyright
+
+Copyright (c) 2026 Keo Platforms, LLC. All rights reserved.
