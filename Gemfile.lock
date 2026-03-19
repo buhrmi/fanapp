@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/inertiajs/inertia-rails.git
-  revision: cff8a6a371f8c38ee0168758327aa563ac4d80ad
+  revision: e59cfb96d7372e6a2c13a31c468b22bd1bac3231
   branch: v3/ssr-in-development
   specs:
     inertia_rails (3.18.0)
@@ -148,7 +148,7 @@ GEM
     jbuilder (2.14.1)
       actionview (>= 7.0.0)
       activesupport (>= 7.0.0)
-    json (2.19.1)
+    json (2.19.2)
     json-schema (6.2.0)
       addressable (~> 2.8)
       bigdecimal (>= 3.1, < 5)
@@ -166,7 +166,7 @@ GEM
     language_server-protocol (3.17.0.5)
     lint_roller (1.1.0)
     logger (1.7.0)
-    loofah (2.25.0)
+    loofah (2.25.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
     mail (2.9.0)
